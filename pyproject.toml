@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hangul-macro"
+version = "0.1.0"
+description = ""
+authors = ["Joon Ho Lee <jh.lee@spira-t.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12, <3.13"
+pywin32 = "^306"
+pydantic = "^2.7.3"
+pyinstaller = "^6.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
